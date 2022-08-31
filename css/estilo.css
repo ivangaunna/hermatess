@@ -1,0 +1,35 @@
+footer{
+	background: blanchedalmond;
+	text-align: center;
+	padding: 3rem;
+}
+.centrar {
+	text-align: center;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+.fixed-top{
+	background: blanchedalmond;
+}
+h1{
+	padding: 2rem;
+}
+.toro{
+	padding: 2rem;
+}
+.chicho{
+	padding-top: 4rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.tarjeta{
+		width:13rem;}
+    }
+
+@media only screen and (min-width: 1024px){
+    .tarjeta{width: 22rem;
+    	display: flex;
+    	justify-content: center;
+    }
+  }
